@@ -1,4 +1,8 @@
 export default function Header() {
     return (
-    <h1>GialloTv</h1>
-)}
+        
+        <div className="header">
+            <h1 className="title-site">GialloTv</h1>
+        </div>
+    )
+}

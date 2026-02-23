@@ -7,10 +7,25 @@ export default function Homepage() {
             <h2>Homepage</h2>
             <p>Guarda i tuoi film preferiti senza pubblicità</p>
 
-            <div className="container">
-            <Cards />
 
-            </div>
+            <section className="slider">
+
+                <div className="container">
+                    <div className="card-disposition">
+                        <Cards />
+                        <Cards />
+                        <Cards />
+                        <Cards />
+                        <Cards />
+                        <Cards />
+                    </div>
+                </div>
+
+                <div className="button-view">
+                    <button className="left-s-b">←</button>
+                    <button className="right-s-b">→</button>
+                </div>
+            </section>
 
 
         </>

@@ -1,6 +1,7 @@
-import AppLayout from './Layouts/appLayout'
-import Homepage from './Pages/homePage'
+import AppLayout from './Layouts/AppLayout'
+import Homepage from './Pages/HomePage'
 import FilmDectail from './Pages/FilmDectail'
+import MovieSlider from './Functions/MovieSlider'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import './App.css'
@@ -13,7 +14,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route element={<AppLayout />}>
-              <Route path='/' element={<Homepage />} />
+              <Route path='/' element={<MovieSlider />} />
                <Route path='/filmDectail' element={<FilmDectail />} />
             </Route>
           </Routes>
