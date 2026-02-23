@@ -1,8 +1,19 @@
-export default function Homepage () {
+import Cards from "../Components/Cards"
 
-    return(
-        
-        <h1>Guarda i tuoi film preferiti senza pubblicità</h1>
+
+export default function Homepage() {
+    return (
+        <>
+            <h2>Homepage</h2>
+            <p>Guarda i tuoi film preferiti senza pubblicità</p>
+
+            <div className="container">
+            <Cards />
+
+            </div>
+
+
+        </>
     )
 
 }
