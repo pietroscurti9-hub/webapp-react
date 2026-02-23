@@ -16,26 +16,33 @@ export default function MovieSlider() {
 
 
     return (
-        <div className="container">
-            <h2>Homepage</h2>
-            <p>Guarda i tuoi film preferiti senza pubblicità</p>
+        <section className="section-ui">
 
-            <div ref={containerRef} className="card-disposition">
+            <div className="container">
+                <h2 className="movie-slider-intro">Guarda i tuoi film preferiti senza pubblicità</h2>
+                
 
-                <Cards />
-                <Cards />
-                <Cards />
-                <Cards />
-                <Cards />
-                <Cards />
+                <div ref={containerRef} className="card-disposition">
 
+                    <Cards />
+                    <Cards />
+                    <Cards />
+                    <Cards />
+                    <Cards />
+                    <Cards />
+
+                </div>
+                <div className="button-view">
+                    <button onClick={scrollLeft} className="scroll-button">←</button>
+                    <button onClick={scrollRight} className="scroll-button">→</button>
+
+                </div>
             </div>
-            <div className="button-view">
-                <button onClick={scrollLeft}>←</button>
-                <button onClick={scrollRight}>→</button>
 
-            </div>
-        </div>
+        </section>
+
+
+
     );
 }
 

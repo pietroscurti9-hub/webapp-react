@@ -1,14 +1,43 @@
+/* GENERIC */
+
+.white-color {
+    color: white;
+}
+
+.yellow-color {
+    color: yellow;
+}
+
+a {
+  text-decoration: none; 
+}
+
+
+
+/* HEADER */
 .header {
-    background-color: #181a18;
+    background-color: #ffd5cd;
     text-align: center;
+    padding-bottom: 1px;
 }
 
 .title-site {
-    color: yellow;
+    color: #8675a9;
     font-family: fantasy;
     font-size: 60px;
 }
 
+/* MOVIESLIDER */
+.section-ui {
+    background-color: #efbbcf;
+
+}
+
+.movie-slider-intro {
+    color: white;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+
+}
 
 .card-disposition {
     display: flex;
@@ -18,7 +47,40 @@
     gap: 15px;
 }
 
+.card-disposition::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, Opera */
+}
+
+
+
 .button-view {
     display: flex;
     justify-content: space-around;
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background-color: #c3aed6;
+    color: white;
+    border-color: white;
+}
+
+/* SOVRASCRIVO COLORI BOOTSTRAP */
+.btn-primary:hover {
+  filter: brightness(0.85);
+  background-color: #c3aed6;
+  border-color: white;
+}
+
+.scroll-button {
+    padding: 0px 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #c3aed6;
+    border-color: white;
+}
+
+.scroll-button:hover {
+     filter: brightness(0.85);
 }

@@ -8,7 +8,7 @@ export default function Homepage() {
             <p>Guarda i tuoi film preferiti senza pubblicità</p>
 
 
-            <section className="slider">
+            
 
                 <div className="container">
                     <div className="card-disposition">
@@ -21,12 +21,10 @@ export default function Homepage() {
                     </div>
                 </div>
 
-                <div className="button-view">
-                    <button className="left-s-b">←</button>
-                    <button className="right-s-b">→</button>
-                </div>
-            </section>
-
+               
+                    
+                
+          
 
         </>
     )
