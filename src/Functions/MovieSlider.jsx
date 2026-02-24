@@ -26,7 +26,7 @@ export default function MovieSlider() {
     // SEZIONE MOVIESLIDERBUTTONS
     const containerRef = useRef(null);
 
-    const cardWidth = 336;
+    const cardWidth = 351;
 
     function scrollLeft() {
         containerRef.current.scrollBy({ left: -cardWidth, behavior: "smooth" });
@@ -41,7 +41,7 @@ export default function MovieSlider() {
         <section className="section-ui">
 
             <div className="container">
-                <h2 className="movie-slider-intro">I meno visti del momento</h2>
+                <h2 className="movie-slider-intro">I MENO VISTI DEL MOMENTO</h2>
 
 
                 <div className="button-view">
