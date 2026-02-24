@@ -9,33 +9,36 @@
 }
 
 a {
-  text-decoration: none; 
+    text-decoration: none;
 }
 
 
 
 /* HEADER */
 .header {
-    background-color: #ffd5cd;
-    text-align: center;
-    padding-bottom: 1px;
+    background-color: #080908;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
-.title-site {
-    color: #8675a9;
-    font-family: fantasy;
-    font-size: 60px;
+.header-logo {
+    height: auto;
+    width: 320px;
+    object-fit: contain;
 }
+
 
 /* MOVIESLIDER */
 .section-ui {
-    background-color: #efbbcf;
+    background-color: #080908;
 
 }
 
 .movie-slider-intro {
     color: white;
-      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 
 }
 
@@ -52,6 +55,27 @@ a {
     /* Chrome, Safari, Opera */
 }
 
+.card {
+    border-color: black;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 464px;
+    width: auto;
+}
+
+.card-body {
+    background-color: black;
+}
+
+.card-title {
+    color: white
+}
+
+.card-text {
+    color: white;
+}
 
 
 .button-view {
@@ -68,19 +92,20 @@ a {
 
 /* SOVRASCRIVO COLORI BOOTSTRAP */
 .btn-primary:hover {
-  filter: brightness(0.85);
-  background-color: #c3aed6;
-  border-color: white;
+    filter: brightness(0.85);
+    background-color: #c3aed6;
+    border-color: white;
 }
 
 .scroll-button {
     padding: 0px 30px;
     font-size: 20px;
     border-radius: 20px;
-    background-color: #c3aed6;
+    background-color: black;
     border-color: white;
+    color: white;
 }
 
 .scroll-button:hover {
-     filter: brightness(0.85);
+    filter: brightness(0.85);
 }

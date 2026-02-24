@@ -15,7 +15,7 @@ function App() {
           <Routes>
             <Route element={<AppLayout />}>
               <Route path='/' element={<MovieSlider />} />
-               <Route path='/filmDectail' element={<FilmDectail />} />
+               <Route path='/filmDectail/:id' element={<FilmDectail />} />
             </Route>
           </Routes>
         </BrowserRouter>
