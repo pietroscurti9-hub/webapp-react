@@ -93,9 +93,10 @@ a {
 .button-view {
     display: flex;
     justify-content: space-around;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
+
 
 .btn-primary {
     background-color: #c3aed6;
@@ -111,16 +112,21 @@ a {
 }
 
 .scroll-button {
-    padding: 0px 30px;
-    font-size: 20px;
-    border-radius: 20px;
-    background-color: #181a18;
-    border-color: white;
-    color: white;
+    background-color: #111211;
+    border-color: #111211;
+    font-size: 40px;
+    color: #80808096;
+    border-style: none;
 }
 
 .scroll-button:hover {
-    filter: brightness(0.85);
+    color: white;
+    transform: scale(1.4);
+}
+
+.scroll-button:active svg {
+  transform: scale(1.05); /* effetto pressione */
+  transition: transform 0.05s ease;
 }
 
 /* FILM DECTAIL SECTION */

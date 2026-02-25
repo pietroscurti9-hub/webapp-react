@@ -1,8 +1,10 @@
 import { useRef } from "react";
-import { Link } from "react-router-dom";
 import Cards from "../Components/Cards";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleArrowLeft, faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
+
 
 export default function MovieSlider() {
 
@@ -19,7 +21,7 @@ export default function MovieSlider() {
 
     useEffect(fetchFilms, []);
 
-    
+
 
 
 
@@ -45,8 +47,13 @@ export default function MovieSlider() {
 
 
                 <div className="button-view">
-                    <button onClick={scrollLeft} className="scroll-button">←</button>
-                    <button onClick={scrollRight} className="scroll-button">→</button>
+                    <button onClick={scrollLeft} className="scroll-button">
+                        <FontAwesomeIcon icon={faCircleArrowLeft} />
+                    </button>
+                    
+                    <button onClick={scrollRight} className="scroll-button">
+                        <FontAwesomeIcon icon={faCircleArrowRight} />
+                    </button>
                 </div>
 
                 <div ref={containerRef} className="card-disposition">
