@@ -160,3 +160,7 @@ a {
     width: 400px;
     object-fit: contain;
 }
+
+.title-size {
+    font-size: 40px;
+}

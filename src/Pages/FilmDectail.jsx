@@ -37,7 +37,7 @@ export default function FilmDectail() {
                     <div className="right-box-container">
 
                         <div className="title-container">
-                            <h2 className="white-color">{film.title}</h2>
+                            <h2 className="white-color title-size">{film.title}</h2>
                         </div>
 
                         <div className="right-box-info">
