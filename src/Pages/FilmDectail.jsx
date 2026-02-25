@@ -60,7 +60,7 @@ export default function FilmDectail() {
 
                         </div>
 
-                        <div className=".text-a-center">
+                        <div className=".text-a-center .pt-10 ">
                             <h5 className="grey-color">Descrizione</h5>
                             <p className="white-color"> {film.abstract}</p>
                         </div>
