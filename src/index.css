@@ -150,7 +150,7 @@ a {
 }
 
 .left-box-img {
-    height: auto;
+    height: 530px;
     width: 400px;
     object-fit: contain;
 }
