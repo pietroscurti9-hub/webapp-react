@@ -11,7 +11,7 @@ function Cards({film}) {
 
 
 
-        <Link to={`/FilmDectail/`} >
+        <Link to={`/FilmDectail/${ film.id }`} >
             <div className="card" style={{ width: "21rem" }} >
                 <img src={`/public/${film.image}`} className="card-img-top" alt="" />
                 <div className="card-body">

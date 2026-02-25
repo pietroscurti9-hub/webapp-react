@@ -19,7 +19,7 @@ export default function MovieSlider() {
 
     useEffect(fetchFilms, []);
 
-    // FUNZIONE DI RENDER FILMS
+    
 
 
 
@@ -41,7 +41,7 @@ export default function MovieSlider() {
         <section className="section-ui">
 
             <div className="container">
-                <h2 className="movie-slider-intro">I MENO VISTI DEL MOMENTO</h2>
+                <h2 className="movie-intro">I MENO VISTI DEL MOMENTO</h2>
 
 
                 <div className="button-view">
@@ -50,6 +50,8 @@ export default function MovieSlider() {
                 </div>
 
                 <div ref={containerRef} className="card-disposition">
+
+                    {/* // FUNZIONE DI RENDER FILMS */}
 
                     {films.map(film => (
 

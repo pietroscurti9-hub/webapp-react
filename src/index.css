@@ -4,8 +4,12 @@
     color: white;
 }
 
-.yellow-color {
-    color: yellow;
+.grey-color {
+    color: gray;
+}
+
+.text-a-center {
+    text-align: center;
 }
 
 a {
@@ -16,11 +20,12 @@ a {
 
 /* HEADER */
 .header {
-    background-color: #080908;
+    background-color: #111211;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px;
+    padding-top: 20px;
 }
 
 .header-logo {
@@ -32,13 +37,15 @@ a {
 
 /* MOVIESLIDER */
 .section-ui {
-    background-color: #080908;
+    background-color: #111211;
+    padding-bottom: 80px;
+    padding-top: 15px;
 
 }
 
-.movie-slider-intro {
+.movie-intro {
     color: white;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    /* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); */
 
 }
 
@@ -57,7 +64,7 @@ a {
 
 .card {
     border-color: black;
-    
+
 }
 
 .card-img-top {
@@ -110,4 +117,36 @@ a {
 
 .scroll-button:hover {
     filter: brightness(0.85);
+}
+
+/* FILM DECTAIL SECTION */
+
+
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-container {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.right-box-container {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.right-box-info {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.left-box-img {
+    height: auto;
+    width: 400px;
+    object-fit: contain;
 }
